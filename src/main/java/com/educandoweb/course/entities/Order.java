@@ -106,6 +106,13 @@ public class Order  implements Serializable{
 		Order other = (Order) obj;
 		return Objects.equals(id, other.id);
 	}
+
+
+
+	@Override
+	public String toString() {
+		return "Order [id=" + id + ", date=" + date + ", orderStatus=" + orderStatus + ", client=" + client + "]";
+	}
 	
 	
 	
