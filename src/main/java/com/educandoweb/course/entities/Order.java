@@ -116,6 +116,16 @@ public class Order  implements Serializable{
 
 	public Set<OrderItem> getItems() {
 		return items;
+		
+	}
+	
+	
+	public double getTotal() {
+		double sum = 0;
+		for(OrderItem x: items) {
+			sum += x.getSubTotal();
+		}
+		return sum;
 	}
 
 	@JsonIgnore
@@ -125,6 +135,8 @@ public class Order  implements Serializable{
 			set.add(x.getOrder());
 		}
 		return set;
+		
+		
 	}
 
 	@Override
