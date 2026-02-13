@@ -11,6 +11,7 @@ Este projeto foi desenvolvido durante o curso de Java com Spring Boot da platafo
 
 
 
+
 ## Modelo conceitual
 ![Image](https://github.com/user-attachments/assets/62cb2b0d-ec64-48d8-804e-8117ec793fb0)
 
@@ -35,19 +36,13 @@ Maven
 Uma IDE (IntelliJ, Eclipse ou VS Code)
 
 ```bash
-# clonar repositóriogit clone https://github.com/Feliperossss/webservice-springboot-jpa.git
-
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+# clonar repositóriogit
+git clone https://github.com/Feliperossss/webservice-springboot-jpa.git
 
 # Acessar a pasta do projeto
-cd nome-do-repositorio
+
+cd webservice-springboot-jpa
+
 
 # Executar a aplicação
 
